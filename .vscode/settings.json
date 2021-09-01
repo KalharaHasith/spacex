@@ -1,0 +1,21 @@
+{
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "auto-rename-tag.activationOnLanguage": [
+
+
+    "*"
+        
+    ],
+  
+    "bracketPairColorizer.activeScopeCSS": [
+
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
+    ],
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.excludeLanguages": [
+
+        "markdown" 
+    ]
+}

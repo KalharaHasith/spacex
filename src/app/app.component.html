@@ -1,0 +1,30 @@
+<div class="container2">
+  <app-header></app-header>
+</div>
+
+<div class="container3">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid">
+    <div
+      fxFlex="20%"
+      fxFlex.xs="100%"
+      fxFlex.sm="33%"
+      *ngFor="let num of [1, 2, 3, 4, 5, 6, 7]"
+    >
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Space Craft {{ num }}</mat-card-title>
+        </mat-card-header>
+        <img
+          mat-card-iamge
+          src="./../assets/external-content.duckduckgo.com.jpg"
+          alt=""
+        />
+        <mat-card-content>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo quod
+          quia dignissimos tempore officiis quis iusto animi minima ab
+          asperiores.
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
